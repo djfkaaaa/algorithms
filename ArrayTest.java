@@ -11,6 +11,5 @@ public class ArrayTest {
         System.out.println(arr[i]);
         }
 
-
     }
 }
