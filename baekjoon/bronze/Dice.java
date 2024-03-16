@@ -19,6 +19,13 @@ public class Dice {
         int f = sc.nextInt();
         int s = sc.nextInt();
         int t = sc.nextInt();
+        int result = 0;
+
+        if (f == s && s == t){
+            result = 10000+f*1000;
+        }else if ((f != s && f==t) || (f != s && s == t)){
+            result = 1000+t*100;}
+
 
 
 
