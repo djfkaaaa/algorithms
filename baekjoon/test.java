@@ -1,22 +1,22 @@
 package baekjoon;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
-
 public class test {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int [] sn = new int[5];
-        for (int i = 0; i < sn.length ; i++) {
-            sn[i] = sc.nextInt();
-        }
-        int result = 0;
-        int sum = 0;
-        for (int i = 0; i < sn.length; i++) {
-            sum += sn[i] * sn[i];
-        }
-        result = sum%10;
-        System.out.println(result);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+
+        int min = 60*a +b;
+        min = min +c;
+
+        int hour = (min/ 60) % 24;
+        int minute = min % 60;
+
+        System.out.println(hour + " " + minute);
     }
 }
+
+
+

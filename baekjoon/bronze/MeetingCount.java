@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.bronze;
 /*
 입력받은 회의수에 대해 각 회의의 진행 시간을 입력받는다,
 이때 시간이 곂치않으며 회의를 사용할수있는 최대 개수를 출력하라
