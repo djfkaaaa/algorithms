@@ -1,8 +1,8 @@
-package baekjoon;
-
+package baekjoon.bronze;
 
 import java.util.Scanner;
-public class test {
+
+public class BlackJack {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
@@ -11,7 +11,7 @@ public class test {
         for (int i = 0; i < num.length; i++) {
             num[i] = sc.nextInt();
         }
-        
+
         int result = 0;
         for (int i = 0; i < num.length-2; i++) {
             if (num[i] > limit) continue;
@@ -30,7 +30,5 @@ public class test {
         }
         System.out.println(result);
     }
+
 }
-
-
-
